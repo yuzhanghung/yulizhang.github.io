@@ -1,5 +1,5 @@
 body {
-  background-color: #FFF8DC;
+  background-color: #fff8dc;
 }
 
 .welcome-page {
@@ -14,6 +14,8 @@ body {
   min-height: 100vh;
 }
 
+
+
 .about-me-container {
   display: flex;
   flex-direction: column;
@@ -24,7 +26,7 @@ body {
 
 .about-me-title,
 .about-me-name {
-  font-size: 26px;;
+  font-size: 26px;
   border: 2px solid black;
   border-radius: 5px;
   padding: 4px 25px;
@@ -36,15 +38,17 @@ body {
   width: 300px;
   height: auto;
   border: 4px solid black;
-
 }
 
-
-.mini-container {
+.mini-container,
+.mini-container-2 {
   display: flex;
   column-gap: 80px;
   align-items: center;
+}
 
+.mini-container-2 {
+  column-gap: 290px;
 }
 
 .square {
