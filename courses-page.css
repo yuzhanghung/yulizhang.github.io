@@ -1,0 +1,35 @@
+.nav-container {
+    height: 80px;
+    background-color: burlywood;
+    border-bottom: 2px solid black;
+    gap: 30px;
+}
+
+.nav-container .nav-link {
+  font-size: 20px;          /* change font size */
+  font-weight: 500;          /* optional: make it bolder */
+  color: black;
+  border-bottom: 3px solid transparent;  /* base border */
+  transition: border-color 0.3s;        /* smooth hover effect */
+
+}
+
+.nav-container .nav-link.active {
+  border-bottom: 3px solid #007BFF;    /* active tab border color */
+}
+
+.nav-container .nav-link:hover {
+  border-bottom: 3px solid #0056b3;    /* hover border color */
+}
+
+.title {
+    margin-left: 30px;
+}
+
+.table-container {
+    margin-left: 30px;
+}
+
+.table-1 {
+    max-inline-size: 1500px;
+}
