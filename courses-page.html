@@ -10,145 +10,88 @@
     
   </head>
   <body>
-    <!--
-    <div class="nav nav-tabs">
-      <button>Courses</button>
-      <button>Projects</button>
-      <button>Skills</button>
-      <button>Experiences</button>
-    </div>
-  -->
+    <div class="nav-container">
+      <nav class="navbar">
+        <div class="nav-left">
+          <a class="nav-link nav-name" href="about-me-page.html">Yuli Zhang</a>
+        </div>
 
-    <ul class="nav nav-tabs justify-content-center align-items-end nav-container">
-      <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#">Courses</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Projects</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="about-me-page.html">Skills</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Experiences</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Resume</a>
-      </li>
-    </ul>
-
-    <div class="display-3 title">Relevant Coursework</div>
-
-    <div class="table-container">
-      <div class="display-5">Currently Taking</div>
-      <table class="table table-striped table-1">
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>Reflection</th>
-            <th>Enjoyment</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th>CS61C</th>
-            <th>Reflection</th>
-            <th>Enjoyment</th>
-          </tr>
-          <tr>
-            <th>CS188</th>
-            <th>Reflection</th>
-            <th>Enjoyment</th>
-          </tr>
-        </tbody>
-      </table>
+        <div class="nav-right d-flex">
+          <a class="nav-link nav-name" href="courses-page.html">Courses</a>
+          <a class="nav-link nav-name" href="projects-page.html">Projects</a>
+          <a class="nav-link nav-name" href="experiences.html">Experiences</a>
+          <a class="nav-link nav-name" href="skills.html">Skills</a>
+        </div>
+      </nav>
     </div>
 
-    <div class="display-3">Completed</div>
-    <div class="display-3">Computer Science & Programming</div>
-    <table class="table table-striped">
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Reflection</th>
-          <th>Enjoyment</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th>CS61BL</th>
-          <th>Reflection</th>
-          <th>Enjoyment</th>
-        </tr>
-        <tr>
-          <th>CS61A</th>
-          <th>Reflection</th>
-          <th>Enjoyment</th>
-        </tr>
-        <tr>
-          <th>CS 33B</th>
-          <th>Reflection</th>
-          <th>Enjoyment</th>
-        </tr>
-      </tbody>
-    </table>
 
-    <div class="display-3">Data Science & Math Foundations</div>
-    <table class="table table-striped">
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Reflection</th>
-          <th>Enjoyment</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th>Data100</th>
-          <th>Reflection</th>
-          <th>Enjoyment</th>
-        </tr>
-        <tr>
-          <th>Math54</th>
-          <th>Reflection</th>
-          <th>Enjoyment</th>
-        </tr>
-        <tr>
-          <th>Discrete Math</th>
-          <th>Reflection</th>
-          <th>Enjoyment</th>
-        </tr>
-      </tbody>
-    </table>
 
-        <div class="display-3">Data Science & Math Foundations</div>
-    <table class="table table-striped">
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Reflection</th>
-          <th>Enjoyment</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th>Data100</th>
-          <th>Reflection</th>
-          <th>Enjoyment</th>
-        </tr>
-        <tr>
-          <th>Math54</th>
-          <th>Reflection</th>
-          <th>Enjoyment</th>
-        </tr>
-        <tr>
-          <th>Discrete Math</th>
-          <th>Reflection</th>
-          <th>Enjoyment</th>
-        </tr>
-      </tbody>
-    </table>
 
+    <p class="courses-page-title">Relevant Coursework</p>
+
+    <div class="timeline">
+      <div class="checkpoint">
+        <div>
+          <h2 class="semester-title">Fall 2025</h2>
+          <ul class="semester-courses">
+            <li>COMPSCI 61C: Great Ideas of Computer Architecture (Machine Structures)</li>
+            <li>COMPSCI 188: Introduction to Artificial Intelligence</li>
+          </ul>
+        </div>
+      </div>
+      <div class="checkpoint">
+        <div>
+          <h2 class="semester-title">Spring 2025</h2>
+          <ul class="semester-courses">
+            <li>COMPSCI 70: Discrete Mathematics and Probability Theory</li>
+            <li>DATA C100: Principles & Techniques of Data Science</li>
+            <li>STAT 33B 	Introduction to Advanced Programming in R</li>
+          </ul>
+        </div>
+      </div>
+      <div class="checkpoint">
+        <div>
+          <h2 class="semester-title">Fall 2024</h2>
+          <ul class="semester-courses">
+            <li>MATH 54: Linear Algebra and Differential Equations</li>
+            <li>MATH 1B: Calculus</li>
+          </ul>
+        </div>
+      </div>
+      <div class="checkpoint">
+        <div>
+          <h2 class="semester-title">Summer 2024</h2>
+          <ul class="semester-courses">
+            <li>COMPSCI 61BL: Data Structures and Programming Methodology</li>
+          </ul>
+        </div>
+      </div>
+      <div class="checkpoint">
+        <div>
+          <h2 class="semester-title">Spring 2024</h2>
+          <ul class="semester-courses">
+            <li>COMPSCI 61A: The Structure and Interpretation of Computer Programs</li>
+            <li>MATH 1A: Calculus</li>
+          </ul>
+        </div>
+      </div>
+      <div class="checkpoint">
+        <div>
+          <h2 class="semester-title">Fall 2023</h2>
+          <ul class="semester-courses">
+            <li>DATA C8:Foundations of Data Science</li>
+          </ul>
+        </div>
+      </div>
+
+
+
+    </div>
 
   </body>
 </html>
+
+
+
+

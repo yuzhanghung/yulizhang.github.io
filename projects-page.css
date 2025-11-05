@@ -1,0 +1,16 @@
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.picture {
+  width: 400px;
+  height: 300px;
+}
+
+.title {
+  font-weight: bold;
+}
