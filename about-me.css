@@ -1,0 +1,50 @@
+
+
+.about-me-container {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap; 
+  padding: 130px;
+
+  max-inline-size: 1000px;
+  margin-inline: auto;
+}
+
+.about-me-figure {
+  flex: 1 1 250px;
+  text-align: center;
+}
+
+.my-picture {
+  border-radius: 50%;
+  max-width: 250px;
+  height: auto;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border: 0.2px solid #2A2A2A;
+}
+
+.badges-container {
+  margin-top: 1rem;
+}
+
+.badge {
+  display: inline-block;
+  background-color: #A4B987;
+  color: #333;
+  font-size: 0.85rem;
+  padding: 6px 10px;
+  border-radius: 12px;
+  margin: 4px;
+  font-weight: 500;
+}
+
+.about-me-text-container {
+  flex: 2 1 400px;
+  
+}
+
+
+
+.about-me-title{
+  text-align: center;
+}

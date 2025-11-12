@@ -1,3 +1,9 @@
+.proj-section .card {
+  max-width: 400px; /* adjust as desired */
+  margin: 0 auto;   /* center horizontally in its column */
+}
+
+
 .card-body {
   display: flex;
   flex-direction: column;
@@ -7,10 +13,16 @@
 }
 
 .picture {
-  width: 400px;
-  height: 300px;
+  width: 360px;
+  height: auto;
+  border-radius: 50%;
 }
 
-.title {
-  font-weight: bold;
+.card {
+  background-color: #e6f7cd;
+}
+
+.card-btn {
+  color: white;
+  background-color: #3F4F2A;
 }

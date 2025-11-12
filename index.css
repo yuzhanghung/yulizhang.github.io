@@ -1,69 +1,77 @@
 body {
-  background-color: rgb(242, 229, 211);
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #F9FFF1;
+  font-family: 'Inter', sans-serif;
+}
+
+
+h1, h2, h3, h4, h5, h6, button {
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-section {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+
+
 }
 
 
 
 .nav-container {
-  background-color: rgb(242, 229, 211);
-  border-bottom: 2px solid black;
- 
-}
-
-
-.nav-name {
-  color: black;
-  font-size: 20px;
-  font-weight: 600;
-  padding: 15px;
-}
-
-.nav-name:hover {
-  color: gray;
-}
-
-
-
-.home-page {
-  padding: 40px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 1000px;
-  margin-inline: auto;
-  margin-top: 50px;
-
-  background-color: white;
-  border: 2px solid black;
-  border-radius: 5px;
-}
-
-
-.my-picture {
-  display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 
+  background-color: #FFFFFF;
+  height: 60px;
+  padding: 0 30px; 
+  border-bottom: 1px solid #A4B987;
 }
 
-
-.about-me-picture {
-  border-radius: 20px;
-  width: 200px;
-  height: auto;
+.my-name {
+  border: none;
+  background: none;
+  color: #3F4F2A;
+  font-weight: bold;
+  font-size: 25px;
+  cursor: pointer;
 }
 
-.my-info {
+.nav-right {
   display: flex;
+  gap: 30px;
+  
+}
+
+.btn {
+  border-color: #A4B987;
+  border-radius: 2px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #3F4F2A;
+  color: #F9FFF1;
+}
+
+.hamburger {
+  display: none;
   flex-direction: column;
-
+  cursor: pointer;
 }
 
-.about-me-title {
-  text-align: center;
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 4px 0;
+  transition: 0.3s;
 }
 
-.about-me-paragraph {
-  text-align: center;
-}
+
+

@@ -1,97 +1,18 @@
-
-.courses-page-title {
-  font-size: 30px;
-  font-weight: bold;
-  text-align: center;
-  padding-top: 30px;
-}
-
-
-
-
-
-
 .timeline {
-  margin: 3em auto;
-  max-width: 35em;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
 }
 
-.checkpoint {
-  max-width: 30em;
-  padding-top: 2em;
-  padding-bottom: 2em;
-  position: relative;
-}
-
-.checkpoint div {
-  border: 2px solid black;
-  border-radius: 5px;
-  padding: 1em;
-  padding-bottom: 0;
-  background-color: white;
-}
-
-.semester-title {
-  font-size: 20px;
-}
-
-.semester-courses {
-  font-size: 13px;
-  line-height: 2;
-}
-
-.checkpoint:nth-child(odd) {
-  border-left: 3px solid black;
-  padding-left: 3em;
-  transform: translateX(17em);
-
-}
-
-.checkpoint:nth-child(even) {
-  border-right: 3px solid black;
-  padding-right: 3em;
-  transform: translateX(-12.8em);
-
-}
-
-
-.checkpoint:nth-child(odd)::before,
-.checkpoint:nth-child(even)::before {
-  content: '';
-  background: black;
-  width: 3em;
-  height: 3px;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.checkpoint:nth-child(odd)::before {
-  left: 0;
-}
-
-.checkpoint:nth-child(even)::before {
-  right: 0;
-}
-
-
-.checkpoint:nth-child(odd) div::before,
-.checkpoint:nth-child(even) div::before {
-  content: '';
-  background: black;
-  width: 0.8em;
-  height: 0.8em;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+.dot {
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
+  background-color: green;
 }
 
-.checkpoint:nth-child(odd) div::before {
-  left: -0.5em;
+.tail {
+  width: 4px;
+  height: 30px;
+  background-color: green;
 }
-
-.checkpoint:nth-child(even) div::before {
-  right: -0.5em;
-}
-
