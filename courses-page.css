@@ -1,7 +1,8 @@
 .timeline {
   display: flex;
-  gap: 15px;
+  gap: 20px;
   justify-content: center;
+  position: relative;
 }
 
 .dot {
@@ -16,3 +17,46 @@
   height: 30px;
   background-color: green;
 }
+
+
+.timeline-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 100px;
+  
+}
+
+.course-container {
+  width: 200px;
+  border: 1px solid red;
+}
+
+
+.timeline-2024 {
+  position: relative;
+  
+}
+
+.bottom-dot {
+  position: absolute;
+
+
+
+
+}
+
+.bottom-tail {
+  position: absolute;
+  bottom: -17px;
+  
+
+
+}
+
+.bottom-course-container {
+  position: absolute;
+  top: 550px;
+
+}
+
