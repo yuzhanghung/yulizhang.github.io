@@ -1,3 +1,9 @@
+.skills-section {
+  background-color: #DAE6CB;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .skill-card {
   display: flex;
   flex-direction: column;
@@ -10,14 +16,14 @@
   background-color: white;
 }
 
-.section-title {
-  font-weight: bold;
-  margin-bottom: 40px;
+
+
+.skill-title {
+  text-align: center;
 }
 
-
-.skills-resume-container {
-  display: flex;
-  justify-content: center;
-  gap: 100px;
+.skills-container {
+  
+  margin-left: 50px;
+  
 }

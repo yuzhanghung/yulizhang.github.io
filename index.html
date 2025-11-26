@@ -14,40 +14,43 @@
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="about-me.css" />
     <link rel="stylesheet" href="projects-page.css" />
-    <link rel="stylesheet" href="courses-page.css" />
+    <link rel="stylesheet" href="course.css" />
     <link rel="stylesheet" href="skills.css" />
+    <link rel="stylesheet" href="resume-and-contact.css" />
+    
   </head>
   <body>
      <!-- Nav Section -->
-    <section class="nav-section">
-      <div class="nav-container">
-        <!-- Nav-left -->
-        <nav class="nav-left">
-          <button class="my-name">Yuli Zhang</button>
-        </nav>
-         <!-- Nav-right -->
-        <nav class="nav-right">
-          <button class="btn proj-btn">Projects</button>
-          <button class="course-btn btn">Courses</button>
-          <button class="skill-btn btn">Skills</button>
-          <button class="resume-btn btn">Resume</button>
-          <button class="contact-me-btn btn">Contact Me</button>
-        </nav>
+    <nav class="nav-container">
 
-        <!-- Hamburger icon -->
-        <div class="hamburger">
-          <div class="bar"></div>
-          <div class="bar"></div>
-          <div class="bar"></div>
-        </div>
+      <!-- Left side -->
+      <div class="nav-left">
+        <a href="#about-me" class="my-name">Yuli Zhang</a>
       </div>
-    </section>
 
+      <!-- Right side -->
+      <div class="nav-right">
+        <a href="#project" class="nav-link nav-name">Projects</a>
+        <a href="#course" class="nav-link nav-name">Courses</a>
+        <a href="#skills" class="nav-link nav-name">Skills</a>
+        <a href="#resume" class="nav-link nav-name">Resume</a>
+        <a href="#contact" class="nav-link nav-name">Contact Me</a>
+      </div>
+
+
+      <!-- Hamburger icon -->
+      <div class="hamburger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+
+    </nav>
 
 
     <!-- About Me Section -->
     <section class="about-me-section">
-      <div class="about-me-container">
+      <div class="about-me-container" id="about-me">
         <!-- Use figure for the image + badges -->
         <figure class="about-me-figure">
           <img src="my-picture.jpg" alt="Photo of Suy" class="my-picture img-fluid">
@@ -79,8 +82,8 @@
 
     <!-- Project Section -->
     <section class="proj-section">
-      <div class="container my-5">
-        <h1 class="text-center mb-4 title">My Projects</h1>
+      <div class="container my-5" id="project">
+        <h2 class="text-center mb-4 title">My Projects</h1>
 
         <div class="row row-cols-1 row-cols-md-2 g-4">
 
@@ -158,112 +161,275 @@
     </section>
 
     <!-- Course Section -->
-    <section class="course-section">
-      <h1>Course</h1>
-      <div class="timeline">
-        <div class="timeline-item">
-          <div class="dot"></div>
-        </div>
-
-
-        <div class="timeline-item">
-          <div class="dot"></div>
-        </div>
-
-        <div class="timeline-item timeline-2023">
-          <div class="course-container">
-            <p class="course-year">
-              Fall 2023
-            </p>
-            <p class="course-title">
-              DATA C8: Foundations of Data Science 
-            </p>
-            <p class="course-title">
-              MATH 32: Precalculus 
-            </p>
-          </div>
-          <div class="tail"></div>
-          <div class="dot"></div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="dot"></div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="dot"></div>
-        </div>
-
-        <!--
-
-        <div class="timeline-item timeline-2024">
-          <div class="dot bottom-dot"></div>
-          <div class="tail bottom-tail"></div>
-          <div class="course-container bottom-course-container">
-            <p class="course-year">
-              Spring 2024
-            </p>
-            <p class="course-title">
-              COMPSCI 61A: The Structure and Interpretation of Computer Programs 
-            </p>
-            <p class="course-title">
-              MATH 1A: Calculus 
-            </p>
-          </div>
-        </div> -->
-
-        <div class="timeline-item">
-          <div class="dot"></div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="dot"></div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="course-container">
-            <p class="course-year">
-              Summer 2024
-            </p>
-            <p class="course-title">
-              COMPSCI 61BL: Data Structures and Programming Methodology 
-            </p>
-            <p class="course-year">
-              Fall 2024
-            </p>
-            <p class="course-title">
-              MATH 54: Linear Algebra and Differential Equations 
-            </p>
-            <p class="course-title">
-              MATH 1B: Calculus 
-            </p>
-          </div>
-          <div class="tail"></div>
-          <div class="dot"></div>
-        </div>
-      </div>
-      </div>
-
-    </section>
+    <h2 class="course-title" id="course">Courses</h2>
+    <section class="timeline-wrapper">
   
+    
+      <div class="middle-line"></div>
+      
+      <div class="box box-top">
+          <div class="dot">
+          </div>
+          <div class="vl-top"></div>
+          <div class="fall-course-section">
+            <h1>Fall 2026</h1>
+            <ul>
+              <li>DATA C8: Foundations of Data Science</li>
+              <li>MATH 32: Precalculus</li>
+            </ul>
+          </div>
+      </div>
+
+
+      <div class="box box-bottom">
+          <div class="dot">
+          </div>
+          <div class="vl-bottom"></div>
+          <div class="fall-course-section">
+            <h1>Fall 2027</h1>
+            <ul>
+              <li>DATA C8: Foundations of Data Science</li>
+              <li>MATH 32: Precalculus</li>
+            </ul>
+          </div>
+      </div>
+
+      <div class="box box-top">
+          <div class="dot">
+          </div>
+          <div class="vl-top"></div>
+          <div class="fall-course-section">
+            <h1>Fall 2025</h1>
+            <ul>
+              <li>CS 61C: Great Ideas of Computer Architecture (Machine Structures)</li>
+              <li>CS 188: Introduction to Artificial Intelligence</li>
+            </ul>
+          </div>
+      </div>
+
+
+      <div class="box box-bottom">
+          <div class="dot">
+          </div>
+          <div class="vl-bottom"></div>
+          <div class="fall-course-section">
+            <h1>Spring 2026</h1>
+            <ul>
+              <li>CS 161: Computer Security</li>
+              <li>CS 168: Introduction to the Internet: Architecture and Protocols</li>
+              <li>INFO 153B: Back-End Web Architecture</li>
+            </ul>
+          </div>
+      </div>
+
+      <div class="box box-top">
+          <div class="dot">
+          </div>
+          <div class="vl-top"></div>
+          <div class="fall-course-section">
+            <h1>Fall 2024</h1>
+            <ul>
+              <li>MATH 54: Linear Algebra and Differential Equations</li>
+              <li>MATH 1B: Calculus</li>
+            </ul>
+          </div>
+      </div>
+
+
+      <div class="box box-bottom">
+          <div class="dot">
+          </div>
+          <div class="vl-bottom"></div>
+          <div class="fall-course-section">
+            <h1>Spring 2025</h1>
+            <ul>
+              <li>CS 70: Discrete Mathematics and Probability Theory</li>
+              <li>Data 100: Principles & Techniques of Data Science</li>
+              <li>Stat 33B: Introduction to Advanced Programming in R</li>
+            </ul>
+          </div>
+      </div>
+
+
+      <div class="box box-top">
+          <div class="dot">
+          </div>
+          <div class="vl-top"></div>
+          <div class="fall-course-section">
+            <h1>Fall 2023</h1>
+            <ul>
+              <li>DATA C8: Foundations of Data Science</li>
+              <li>MATH 32: Precalculus</li>
+            </ul>
+          </div>
+      </div>
+
+
+      <div class="box box-bottom">
+          <div class="dot">
+          </div>
+          <div class="vl-bottom"></div>
+          <div class="fall-course-section">
+            <h1>Spring 2024</h1>
+            <ul>
+              <li>CS 61A: The Structure and Interpretation of Computer Programs</li>
+              <li>MATH 1A: Calculus</li>
+            </ul>
+            <h1>Summer 2024</h1>
+            <ul>
+              <li>CS 61BL: Data Structures and Programming Methodology</li>
+            </ul>
+          </div>
+      </div>
+    </section>
 
 
     
-    <!-- Course Section -->
-    <section class="skills-resume-section">
-      <div class="skills-resume-container">
-        <div class="skills-container">
-          <h2>Skills</h2>
-          <h3>Programming Languages</h3>
+    <!-- Skills Section -->
+    <section class="skills-section">
+      <div class="skills-container" id="skills">
+        <h2 class="skill-title">Skills</h2>
+        <h3 class="mb-4 skills-category">Programming Languages</h3>
+
+        <div class="d-flex flex-wrap justify-content-start gap-4">
+      
+          <div class="skill-card">
+            <i class="fa-brands fa-html5 text-danger fs-1"></i>
+            <p class="fw-bold mt-2 mb-0">HTML</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="fa-brands fa-css3-alt text-primary fs-1"></i>
+            <p class="fw-bold mt-2 mb-0">CSS</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="fa-brands fa-js text-warning fs-1"></i>
+            <p class="fw-bold mt-2 mb-0">JavaScript</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="fa-brands fa-python text-info fs-1"></i>
+            <p class="fw-bold mt-2 mb-0">Python</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="fa-brands fa-java text-danger fs-1"></i>
+            <p class="fw-bold mt-2 mb-0">Java</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="fa-solid fa-c text-secondary fs-1"></i>
+            <p class="fw-bold mt-2 mb-0">C</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="fa-solid fa-database text-success fs-1"></i>
+            <p class="fw-bold mt-2 mb-0">SQL</p>
+          </div>
+
+          <div class="skill-card">
+            <img width="48" height="48" src="https://img.icons8.com/color/48/c-plus-plus-logo.png" alt="c-plus-plus-logo"/>
+            <p class="fw-bold mt-2 mb-0">C++</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="fa-brands fa-r-project text-primary fs-1"></i>
+            <p class="fw-bold mt-2 mb-0">R</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="fa-solid fa-code text-purple fs-1"></i>
+            <p class="fw-bold mt-2 mb-0">Scheme</p>
+          </div>
+        </div>
+     
+    
+
+          <!-- Frameworks & Libraries -->
+        <h3 class="text-start mb-4 mt-4 skills-category">Frameworks & Libraries</h3>
+        <div class="d-flex flex-wrap justify-content-start gap-4 mb-5">
+          <div class="skill-card">
+            <i class="fa-brands fa-bootstrap text-primary fs-1"></i>
+            <p class="fw-bold mt-2 mb-0">Bootstrap</p>
+          </div>
 
         </div>
 
+        <!-- Tools & Software -->
+        <h3 class="text-start mb-4 skills-category">Tools & Software</h3>
+        <div class="d-flex flex-wrap justify-content-start gap-4 mb-5">
 
-        <div class="resume-container">
-          <h2>Resume</h2>
+          <div class="skill-card">
+            <i class="fa-brands fa-git-alt text-danger fs-1"></i>
+            <p class="fw-bold mt-2 mb-0">Git</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="fa-brands fa-github text-dark fs-1"></i>
+            <p class="fw-bold mt-2 mb-0">GitHub</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="fa-solid fa-code fs-1"></i>
+            <p class="fw-bold mt-2 mb-0">VS Code</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="fa-brands fa-figma text-warning fs-1"></i>
+            <p class="fw-bold mt-2 mb-0">Figma</p>
+          </div>
         </div>
       </div>
     </section>
+
+
+    
+    <!-- Resume Section -->
+
+    <section class="resume-section">
+      <h2 id="resume">Resume</h2>
+      <iframe class="resume-pdf" src="resume.pdf">
+        <a href="resume.pdf" target="_blank">Download Resume</a>
+      </iframe>
+    </section>
+
+     <!-- Contact-Me Section -->
+
+    <section class="contact-section">
+      <div class="contact-container" id="contact">
+        <!-- Left side -->
+        <div class="contact-text">
+          <h2>Get in Touch</h2>
+          <p>If you’d like to connect, collaborate, or just say hello — I’d love to hear from you!</p>
+        </div>
+
+        <!-- Right side -->
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Name *</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message"></textarea>
+          </div>
+
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+
+
+    <footer class="footer">
+      <p>© 2025 Yuli Zhang. All rights reserved.</p>
+    </footer>
 
 
 

@@ -1,0 +1,101 @@
+.resume-section {
+  margin: 50px 0;
+  text-align: center; 
+  margin-bottom: 100px;
+}
+
+.resume-section h2 {
+
+  margin-bottom: 20px;
+ 
+}
+
+.resume-pdf {
+  width: 70%;          
+  height: 700px;       
+  border: 1px solid #ccc;
+  border-radius: 5px; 
+}
+
+
+
+.contact-section {
+
+  background-color: #DAE6CB;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap; /* allows stacking on small screens */
+  gap: 40px;       /* space between columns */
+  width: 90%;
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+.contact-text {
+  flex: 1;         /* left column takes available space */
+  min-width: 250px;
+}
+
+.contact-text h2 {
+  color: #3F4F2A;
+  margin-bottom: 15px;
+}
+
+.contact-text p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.contact-form {
+  flex: 1;         /* right column takes available space */
+  min-width: 250px;
+}
+
+.contact-form .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.contact-form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #3F4F2A;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+.contact-form button {
+  background-color: #3F4F2A;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #2e3b20;
+}
+
+
+.footer {
+  background-color: #3F4F2A;
+  color: white;
+  padding: 25px;
+  text-align: center;
+  
+}

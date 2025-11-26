@@ -8,19 +8,18 @@ h1, h2, h3, h4, h5, h6, button {
   font-family: 'Poppins', sans-serif;
 }
 
-.nav-section {
+a {
+  text-decoration: none;
+}
+
+
+.nav-container {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 1000;
 
-
-}
-
-
-
-.nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -46,16 +45,18 @@ h1, h2, h3, h4, h5, h6, button {
   
 }
 
-.btn {
-  border-color: #A4B987;
+.nav-name {
+  border: 1px solid #A4B987;
+  padding: 10px;
   border-radius: 2px;
   font-size: 16px;
   font-weight: 500;
   cursor: pointer;
 }
 
-.btn:hover {
+.nav-name:hover {
   background-color: #3F4F2A;
+  padding: 10px;
   color: #F9FFF1;
 }
 

@@ -1,5 +1,3 @@
-
-
 .about-me-container {
   display: flex;
   gap: 40px;
@@ -40,10 +38,7 @@
 
 .about-me-text-container {
   flex: 2 1 400px;
-  
 }
-
-
 
 .about-me-title{
   text-align: center;
