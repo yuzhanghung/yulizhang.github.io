@@ -1,0 +1,92 @@
+[
+  {
+    "Name": "HTML",
+    "Category": "Programming Languages",
+    "IconClass": "fa-brands fa-html5",
+    "ColorClass": "text-danger"
+  },
+  {
+    "Name": "CSS",
+    "Category": "Programming Languages",
+    "IconClass": "fa-brands fa-css3-alt",
+    "ColorClass": "text-primary"
+  },
+  {
+    "Name": "JavaScript",
+    "Category": "Programming Languages",
+    "IconClass": "fa-brands fa-js",
+    "ColorClass": "text-warning"
+  },
+  {
+    "Name": "Python",
+    "Category": "Programming Languages",
+    "IconClass": "fa-brands fa-python",
+    "ColorClass": "text-info"
+  },
+  {
+    "Name": "Java",
+    "Category": "Programming Languages",
+    "IconClass": "fa-brands fa-java",
+    "ColorClass": "text-danger"
+  },
+  {
+    "Name": "C",
+    "Category": "Programming Languages",
+    "IconClass": "fa-brands fa-c",
+    "ColorClass": "text-secondary"
+  },
+  {
+    "Name": "SQL",
+    "Category": "Programming Languages",
+    "IconClass": "fa-database",
+    "ColorClass": "text-success"
+  },
+  {
+    "Name": "R",
+    "Category": "Programming Languages",
+    "IconClass": "fa-brands fa-r-project",
+    "ColorClass": "text-primary"
+  },
+  {
+    "Name": "Scheme",
+    "Category": "Programming Languages",
+    "IconClass": "fa-solid fa-code",
+    "ColorClass": "text-purple"
+  },
+  {
+    "Name": "React",
+    "Category": "Frameworks",
+    "IconClass": "fa-brands fa-html5",
+    "ColorClass": "text-danger"
+  },
+  {
+    "Name": "Bootstrap",
+    "Category": "Frameworks",
+    "IconClass": "fa-brands fa-bootstrap",
+    "ColorClass": "text-primary"
+  },
+  {
+    "Name": "Git",
+    "Category": "Software",
+    "IconClass": "fa-brands fa-git-alt",
+    "ColorClass": "text-danger"
+  },
+  {
+    "Name": "GitHub",
+    "Category": "Software",
+    "IconClass": "fa-brands fa-github",
+    "ColorClass": "text-dark"
+  },
+  {
+    "Name": "VS Code",
+    "Category": "Software",
+    "IconClass": "fa-solid fa-code",
+    "ColorClass": "text-dark"
+  },
+  {
+    "Name": "Figma",
+    "Category": "Software",
+    "IconClass": "fa-brands fa-figma",
+    "ColorClass": "text-warning"
+  }
+]

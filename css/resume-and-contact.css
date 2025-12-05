@@ -92,6 +92,14 @@
 }
 
 
+.contact-icons {
+  padding-top: 50%;
+}
+
+.contact-icon {
+  color: #3F4F2A;
+}
+
 .footer {
   background-color: #3F4F2A;
   color: white;

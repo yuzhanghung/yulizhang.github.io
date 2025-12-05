@@ -1,0 +1,26 @@
+[
+  {
+    "Name": "Build Your Own World",
+    "Description": "2D game world in Java with interactive movement, enemies, and avatar customization.",
+    "Image": "img/build-world.jpg",
+    "ProjectLink": "https://github.com/yuzhanghung/build-your-own-world-proj"
+  },
+  {
+    "Name": "Web Proposal",
+    "Description": "Melody Explorer is a relaxing music discovery app that helps you find calming, cozy, and focused songs through moods, previews, and beautiful album art.",
+    "Image": "img/coming-soon.jpg",
+    "ProjectLink": "https://github.com/yuzhanghung/melody-explorer"
+  },
+  {
+    "Name": "Business Communication Project",
+    "Description": "A simple six-slide intro to calculus that explains what it is, why it matters for CS, and how ideas like derivatives and integrals appear in algorithms, AI, graphics, and modeling.",
+    "Image": "img/calculus.jpg",
+    "ProjectLink": "https://www.canva.com/design/DAG4WX5IkkM/eVOgskiJA17OtZjv9SM6ag/edit?utm_content=DAG4WX5IkkM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+  },
+  {
+    "Name": "LightCount - A NeoPixel Guessing Game",
+    "Description": "LightCount is an interactive guessing game built with NeoPixels and a keypad. In each round, a random number of LEDs light up, and the player must quickly count them and enter the correct number using the keypad.",
+    "Image": "img/iot.jpg",
+    "ProjectLink": "https://www.tinkercad.com/things/i9KAWPtPT3t-lightcount-a-neopixel-guessing-game/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard&sharecode=-X38uWuHvitbzTLjfPlVXYgGQrK6fgDa6xVtblizmjE"
+  }
+]

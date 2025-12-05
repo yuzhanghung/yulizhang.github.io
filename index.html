@@ -9,41 +9,41 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 
 
-    <link rel="stylesheet" href="index.css" />
-    <link rel="stylesheet" href="about-me.css" />
-    <link rel="stylesheet" href="projects-page.css" />
-    <link rel="stylesheet" href="course.css" />
-    <link rel="stylesheet" href="skills.css" />
-    <link rel="stylesheet" href="resume-and-contact.css" />
+    <link rel="stylesheet" href="css/about-me.css" />
+    <link rel="stylesheet" href="css/course.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/projects-page.css" />
+    <link rel="stylesheet" href="css/resume-and-contact.css" />
+    <link rel="stylesheet" href="css/skills.css"/>
+
+
     
   </head>
   <body>
      <!-- Nav Section -->
-    <nav class="nav-container">
-
-      <!-- Left side -->
-      <div class="nav-left">
-        <a href="#about-me" class="my-name">Yuli Zhang</a>
-      </div>
-
-      <!-- Right side -->
-      <div class="nav-right">
-        <a href="#project" class="nav-link nav-name">Projects</a>
-        <a href="#course" class="nav-link nav-name">Courses</a>
-        <a href="#skills" class="nav-link nav-name">Skills</a>
-        <a href="#resume" class="nav-link nav-name">Resume</a>
-        <a href="#contact" class="nav-link nav-name">Contact Me</a>
-      </div>
+    <nav class="fixed-top">
+      <ul class="sidebar">
+        <li onclick="hideSidebar()"><a href="#"><span class="material-symbols-outlined">close</span></a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="#course">Courses</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
 
 
-      <!-- Hamburger icon -->
-      <div class="hamburger">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-      </div>
+      <ul>
+        <li class="my-name"><a href="#about-me" class="name">Yuli Zhang</a></li>
+        <li class="hideOnMobile"><a href="#project">Projects</a></li>
+        <li class="hideOnMobile"><a href="#course">Courses</a></li>
+        <li class="hideOnMobile"><a href="#skills">Skills</a></li>
+        <li class="hideOnMobile"><a href="#resume">Resume</a></li>
+        <li class="hideOnMobile"><a href="#contact">Contact Me</a></li>
+        <li class="menu-button" onclick="showSidebar()"><a href="#"><span class="material-symbols-outlined">menu</span></a></li>
+      </ul>
 
     </nav>
 
@@ -53,14 +53,13 @@
       <div class="about-me-container" id="about-me">
         <!-- Use figure for the image + badges -->
         <figure class="about-me-figure">
-          <img src="my-picture.jpg" alt="Photo of Suy" class="my-picture img-fluid">
+          <img src="img/my-picture.jpg" alt="Photo of Yuli" class="my-picture img-fluid">
           <!-- badges under the picture -->
           <div class="badges-container">
-            <span class="badge">Python</span>
-            <span class="badge">JavaScript</span>
-            <span class="badge">HTML/CSS</span>
-            <span class="badge">Java</span>
-            <span class="badge">C</span>
+            <span class="badge">📍 San Francisco</span>
+            <span class="badge">📖 Manga</span>
+            <span class="badge">🎌 Anime</span>
+            <span class="badge">🎵 Music</span>
           </div>
         </figure>
         <!-- About Me Text -->
@@ -82,303 +81,51 @@
 
     <!-- Project Section -->
     <section class="proj-section">
-      <div class="container my-5" id="project">
-        <h2 class="text-center mb-4 title">My Projects</h1>
-
-        <div class="row row-cols-1 row-cols-md-2 g-4">
-
-          <!-- Project 1: 2D Game -->
-          <div class="col">
-            <div class="card h-100">
-              <div class="card-body">
-                <h5 class="card-title">Build Your Own World</h5>
-                <img src="build-your-own-world.jpg" class="picture img-fluid">
-                <p class="card-text text-center">
-                  2D game world in Java with interactive movement, enemies, and avatar customization.
-                </p>
-              </div>
-              <div class="card-footer text-center">
-                <!-- GitHub button -->
-                <a href="https://github.com/your-repo" target="_blank" class="btn btn-outline-dark me-2 card-btn">
-                  <i class="bi bi-github"></i> GitHub
-                </a>
-
-                <!-- Live Demo button -->
-                <a href="https://your-demo-link.com" target="_blank" class="btn btn-outline-success card-btn">
-                  <i class="fas fa-external-link-alt"></i> Live Demo
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Project 2: Web Proposal -->
-          <div class="col">
-            <div class="card h-100">
-              <div class="card-body">
-                <h5 class="card-title">Web Proposal</h5>
-                <img src="coming-soon.jpg" class="picture img-fluid">
-                <p class="card-text text-center">
-                  Conceptual web project proposal. Details to be implemented.
-                </p>
-              </div>
-              <div class="card-footer text-center">
-                <a href="#" class="btn btn-secondary disabled card-btn">Coming Soon</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Project 3: Team Business Communication -->
-          <div class="col">
-            <div class="card h-100">
-              <div class="card-body">
-                <h5 class="card-title">Business Communication Project</h5>
-                <img src="coming-soon.jpg" class="picture img-fluid">
-                <p class="card-text text-center">
-                  Team Project. Details to be implemented.
-                </p>
-              </div>
-              <div class="card-footer text-center">
-                <a href="#" class="btn btn-secondary disabled card-btn">Coming Soon</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Project 4: Make-A-Thon -->
-          <div class="col">
-            <div class="card h-100">
-              <div class="card-body">
-                <h5 class="card-title">Make-A-Thon</h5>
-                <img src="coming-soon.jpg" class="picture img-fluid">
-                <p class="card-text text-center">Details to be implemented.</p>
-              </div>
-              <div class="card-footer text-center">
-                <a href="#" class="btn btn-secondary disabled card-btn">Coming Soon</a>
-              </div>
-            </div>
-          </div>
+      <div class="proj-container my-5" id="project">
+        <h2 class="text-center mb-4 title">My Projects</h2>
+        <div class="row row-cols-1 row-cols-md-2 g-4" id="js-project">
         </div>
       </div>
     </section>
 
     <!-- Course Section -->
     <h2 class="course-title" id="course">Courses</h2>
-    <section class="timeline-wrapper">
-  
-    
+    <section class="timeline-wrapper" id="js-course">
       <div class="middle-line"></div>
-      
-      <div class="box box-top">
-          <div class="dot">
-          </div>
-          <div class="vl-top"></div>
-          <div class="fall-course-section">
-            <h1>Fall 2026</h1>
-            <ul>
-              <li>DATA C8: Foundations of Data Science</li>
-              <li>MATH 32: Precalculus</li>
-            </ul>
-          </div>
-      </div>
-
-
-      <div class="box box-bottom">
-          <div class="dot">
-          </div>
-          <div class="vl-bottom"></div>
-          <div class="fall-course-section">
-            <h1>Fall 2027</h1>
-            <ul>
-              <li>DATA C8: Foundations of Data Science</li>
-              <li>MATH 32: Precalculus</li>
-            </ul>
-          </div>
-      </div>
-
-      <div class="box box-top">
-          <div class="dot">
-          </div>
-          <div class="vl-top"></div>
-          <div class="fall-course-section">
-            <h1>Fall 2025</h1>
-            <ul>
-              <li>CS 61C: Great Ideas of Computer Architecture (Machine Structures)</li>
-              <li>CS 188: Introduction to Artificial Intelligence</li>
-            </ul>
-          </div>
-      </div>
-
-
-      <div class="box box-bottom">
-          <div class="dot">
-          </div>
-          <div class="vl-bottom"></div>
-          <div class="fall-course-section">
-            <h1>Spring 2026</h1>
-            <ul>
-              <li>CS 161: Computer Security</li>
-              <li>CS 168: Introduction to the Internet: Architecture and Protocols</li>
-              <li>INFO 153B: Back-End Web Architecture</li>
-            </ul>
-          </div>
-      </div>
-
-      <div class="box box-top">
-          <div class="dot">
-          </div>
-          <div class="vl-top"></div>
-          <div class="fall-course-section">
-            <h1>Fall 2024</h1>
-            <ul>
-              <li>MATH 54: Linear Algebra and Differential Equations</li>
-              <li>MATH 1B: Calculus</li>
-            </ul>
-          </div>
-      </div>
-
-
-      <div class="box box-bottom">
-          <div class="dot">
-          </div>
-          <div class="vl-bottom"></div>
-          <div class="fall-course-section">
-            <h1>Spring 2025</h1>
-            <ul>
-              <li>CS 70: Discrete Mathematics and Probability Theory</li>
-              <li>Data 100: Principles & Techniques of Data Science</li>
-              <li>Stat 33B: Introduction to Advanced Programming in R</li>
-            </ul>
-          </div>
-      </div>
-
-
-      <div class="box box-top">
-          <div class="dot">
-          </div>
-          <div class="vl-top"></div>
-          <div class="fall-course-section">
-            <h1>Fall 2023</h1>
-            <ul>
-              <li>DATA C8: Foundations of Data Science</li>
-              <li>MATH 32: Precalculus</li>
-            </ul>
-          </div>
-      </div>
-
-
-      <div class="box box-bottom">
-          <div class="dot">
-          </div>
-          <div class="vl-bottom"></div>
-          <div class="fall-course-section">
-            <h1>Spring 2024</h1>
-            <ul>
-              <li>CS 61A: The Structure and Interpretation of Computer Programs</li>
-              <li>MATH 1A: Calculus</li>
-            </ul>
-            <h1>Summer 2024</h1>
-            <ul>
-              <li>CS 61BL: Data Structures and Programming Methodology</li>
-            </ul>
-          </div>
-      </div>
     </section>
 
 
-    
+
+    <!--timeline container-->
+    <section class="vl-timeline" id="js-vl-timeline">
+      <div class="left-line"></div>
+    </section>
+  
+
     <!-- Skills Section -->
     <section class="skills-section">
       <div class="skills-container" id="skills">
         <h2 class="skill-title">Skills</h2>
         <h3 class="mb-4 skills-category">Programming Languages</h3>
 
-        <div class="d-flex flex-wrap justify-content-start gap-4">
-      
-          <div class="skill-card">
-            <i class="fa-brands fa-html5 text-danger fs-1"></i>
-            <p class="fw-bold mt-2 mb-0">HTML</p>
-          </div>
+        <div class="d-flex flex-wrap justify-content-start gap-4" id="js-lang-skill">
 
-          <div class="skill-card">
-            <i class="fa-brands fa-css3-alt text-primary fs-1"></i>
-            <p class="fw-bold mt-2 mb-0">CSS</p>
-          </div>
-
-          <div class="skill-card">
-            <i class="fa-brands fa-js text-warning fs-1"></i>
-            <p class="fw-bold mt-2 mb-0">JavaScript</p>
-          </div>
-
-          <div class="skill-card">
-            <i class="fa-brands fa-python text-info fs-1"></i>
-            <p class="fw-bold mt-2 mb-0">Python</p>
-          </div>
-
-          <div class="skill-card">
-            <i class="fa-brands fa-java text-danger fs-1"></i>
-            <p class="fw-bold mt-2 mb-0">Java</p>
-          </div>
-
-          <div class="skill-card">
-            <i class="fa-solid fa-c text-secondary fs-1"></i>
-            <p class="fw-bold mt-2 mb-0">C</p>
-          </div>
-
-          <div class="skill-card">
-            <i class="fa-solid fa-database text-success fs-1"></i>
-            <p class="fw-bold mt-2 mb-0">SQL</p>
-          </div>
-
-          <div class="skill-card">
-            <img width="48" height="48" src="https://img.icons8.com/color/48/c-plus-plus-logo.png" alt="c-plus-plus-logo"/>
-            <p class="fw-bold mt-2 mb-0">C++</p>
-          </div>
-
-          <div class="skill-card">
-            <i class="fa-brands fa-r-project text-primary fs-1"></i>
-            <p class="fw-bold mt-2 mb-0">R</p>
-          </div>
-
-          <div class="skill-card">
-            <i class="fa-solid fa-code text-purple fs-1"></i>
-            <p class="fw-bold mt-2 mb-0">Scheme</p>
-          </div>
         </div>
      
     
 
           <!-- Frameworks & Libraries -->
         <h3 class="text-start mb-4 mt-4 skills-category">Frameworks & Libraries</h3>
-        <div class="d-flex flex-wrap justify-content-start gap-4 mb-5">
-          <div class="skill-card">
-            <i class="fa-brands fa-bootstrap text-primary fs-1"></i>
-            <p class="fw-bold mt-2 mb-0">Bootstrap</p>
-          </div>
+        <div class="d-flex flex-wrap justify-content-start gap-4 mb-5" id="js-fram-skill">
+  
 
         </div>
 
         <!-- Tools & Software -->
         <h3 class="text-start mb-4 skills-category">Tools & Software</h3>
-        <div class="d-flex flex-wrap justify-content-start gap-4 mb-5">
+        <div class="d-flex flex-wrap justify-content-start gap-4 mb-5" id="js-tool-skill">
 
-          <div class="skill-card">
-            <i class="fa-brands fa-git-alt text-danger fs-1"></i>
-            <p class="fw-bold mt-2 mb-0">Git</p>
-          </div>
 
-          <div class="skill-card">
-            <i class="fa-brands fa-github text-dark fs-1"></i>
-            <p class="fw-bold mt-2 mb-0">GitHub</p>
-          </div>
-
-          <div class="skill-card">
-            <i class="fa-solid fa-code fs-1"></i>
-            <p class="fw-bold mt-2 mb-0">VS Code</p>
-          </div>
-
-          <div class="skill-card">
-            <i class="fa-brands fa-figma text-warning fs-1"></i>
-            <p class="fw-bold mt-2 mb-0">Figma</p>
-          </div>
         </div>
       </div>
     </section>
@@ -399,13 +146,29 @@
     <section class="contact-section">
       <div class="contact-container" id="contact">
         <!-- Left side -->
-        <div class="contact-text">
+        <div class="contact-text text-center">
           <h2>Get in Touch</h2>
           <p>If you’d like to connect, collaborate, or just say hello — I’d love to hear from you!</p>
+
+          <!-- Icons below the text -->
+          <div class="contact-icons mt-3">
+            <a href="mailto:zhangyuli320@gmail.com" target="_blank" class="me-3">
+              <i class="fas fa-envelope fa-2x contact-icon"></i>
+            </a>
+            <a href="https://github.com/yuzhanghung" target="_blank" class="me-3">
+              <i class="fab fa-github fa-2x contact-icon"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/yuli-zhang" target="_blank">
+              <i class="fab fa-linkedin fa-2x contact-icon"></i>
+            </a>
+          </div>
         </div>
 
+
         <!-- Right side -->
-        <form class="contact-form">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+          <input type="hidden" name="access_key" value="521c688c-d370-4e81-b452-a174ed745d55">
+
           <div class="form-group">
             <label for="name">Name *</label>
             <input type="text" id="name" name="name" placeholder="Enter your name" required>
@@ -433,6 +196,14 @@
 
 
 
+
+
+    <script src="script.js"></script>
+    <script>
+      getAllProjectRecords();
+      getAllCourseRecords();
+      getAllSkillRecords();
+    </script>
 
 
 

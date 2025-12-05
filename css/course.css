@@ -85,3 +85,69 @@ h1 {
 }
 
 
+
+
+/*vertical line */
+
+.vl-timeline {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  height: auto;
+  min-height: 600px;
+  margin-bottom: 200px;
+  display: none;
+}
+
+.vl-timeline .left-line {
+  position: absolute;
+  left: 10%;
+  width: 4px;
+  height: 100%;
+  top: 0;
+  transform: translateX(-50%);
+  background: #A4B987;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  width: 45%;
+  position: relative;
+  min-height: 150px;
+  margin-left: 6.5%;
+  margin-top: 10px;
+
+}
+
+
+
+.dots {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #3F4F2A;
+
+}
+
+
+
+.fall-course-sections {
+  border-radius: 5px;
+  background-color: #e6f7cd;
+  width: 220px;
+  height: auto;
+  padding: 10px;
+}
+
+
+@media (max-width: 700px) {
+  .timeline-wrapper {
+    display: none;
+  }
+
+  .vl-timeline {
+    display: block;
+  }
+}
+

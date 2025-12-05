@@ -1,0 +1,51 @@
+[
+  {
+    "Year": "Fall 2026",
+    "Course1": "DATA C8: Foundations of Data Science",
+    "Course2": "MATH 32: Precalculus",
+    "Course3": "",
+    "Semester": "Fall"
+  },
+  {
+    "Year": "Spring 2027",
+    "Course1": "DATA C8: Foundations of Data Science",
+    "Course2": "MATH 32: Precalculus",
+    "Course3": "",
+    "Semester": "Spring"
+  },
+  {
+    "Year": "Fall 2025",
+    "Course1": "CS 61C: Great Ideas of Computer Architecture (Machine Structures)",
+    "Course2": "CS 188: Introduction to Artificial Intelligence",
+    "Course3": "",
+    "Semester": "Fall"
+  },
+  {
+    "Year": "Spring 2026",
+    "Course1": "CS 161: Computer Security",
+    "Course2": "INFO 153B: Back-End Web Architecture",
+    "Course3": "Math 53: Multivariable Calculus",
+    "Semester": "Spring"
+  },
+  {
+    "Year": "Fall 2024",
+    "Course1": "MATH 54: Linear Algebra and Differential Equations",
+    "Course2": "MATH 1B: Calculus",
+    "Course3": "",
+    "Semester": "Fall"
+  },
+  {
+    "Year": "Spring 2025",
+    "Course1": "CS 70: Discrete Mathematics and Probability Theory",
+    "Course2": "Data 100: Principles & Techniques of Data Science",
+    "Course3": "Stat 33B: Introduction to Advanced Programming in R",
+    "Semester": "Spring"
+  },
+  {
+    "Year": "Fall 2023",
+    "Course1": "DATA C8: Foundations of Data Science",
+    "Course2": "MATH 32: Precalculus",
+    "Course3": "",
+    "Semester": "Fall"
+  }
+]
